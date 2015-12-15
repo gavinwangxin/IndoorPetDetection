@@ -15,10 +15,11 @@ void help()
 
 int _tmain(int argc,char** argv)
 {
-	//argv[1] = "F://C#_Program//DogVideoData//Easy//test//1.mp4";
-	//argv[2] = "F:/C#_Program/DogVideoData/Easy/test/";
+	argv[1] = "F://C#_Program//DogVideoData//Easy//test2//video2.mp4";
+	argv[2] = "F:/C#_Program/DogVideoData/Easy/test2/";
+	cout << argv[1] << "\n" << argv[2] << endl;
 	const string& imageDirectory = argv[2];
-	const string& fileName =argv[1];// "F://C#_Program//DogVideoData//Easy//test//1.mp4";
+	const string& fileName =argv[1];// "F://C#_Program//DogVideoData//Easy//test2//video2.mp4";
 //	if (argc != 2)
 //	{
 //		help( );
@@ -55,7 +56,7 @@ int _tmain(int argc,char** argv)
 #endif
 		sprintf_s(number, "%05d.jpg", num);
 		imageName =  imageDirectory+ number;//
-		//cout << imageName << endl;
+		cout << imageName << endl;
 		imwrite(imageName,image);
 
 		if (waitKey(1) == 27)
