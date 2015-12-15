@@ -1,5 +1,5 @@
-// VideoToFrame.cpp : ¶¨Òå¿ØÖÆÌ¨Ó¦ÓÃ³ÌĞòµÄÈë¿Úµã¡£
-//×ª»»ÊÓÆµÎªÍ¼ÏñĞòÁĞ
+// VideoToFrame.cpp : å®šä¹‰æ§åˆ¶å°åº”ç”¨ç¨‹åºçš„å…¥å£ç‚¹ã€‚
+//è½¬æ¢è§†é¢‘ä¸ºå›¾åƒåºåˆ—
 
 #include "stdafx.h"
 #include "opencv2/opencv.hpp"
@@ -9,7 +9,7 @@ using namespace std;
 
 void help()
 {
-	cout << "No such directory found!" << endl;;
+	cout << "No such directory found!" << endl;
 }
 
 
